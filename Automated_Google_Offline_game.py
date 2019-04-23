@@ -7,7 +7,7 @@ from numpy import *
 class Coordinates():
     replayBtn=(340,390)
     dinosaur=(171,395)
-#164,387
+
 def restartGame():
     pyautogui.click(Coordinates.replayBtn)
     
@@ -38,7 +38,7 @@ def main():
             time.sleep(0.1)
                       
 main()   
-#199,386
+
 
    
     
