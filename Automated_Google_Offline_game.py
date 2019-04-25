@@ -17,7 +17,9 @@ def pressSpace():
     time.sleep(0.05)
     print("Jump")
     pyautogui.keyUp('space')
-    
+    ##
+    ##Code for dodging the birds will come here
+    ##
     
 #restartGame()
 #time.sleep(1)
