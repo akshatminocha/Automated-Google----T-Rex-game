@@ -5,8 +5,8 @@ from numpy import *
 
 
 class Coordinates():
-    replayBtn=(340,390)
-    dinosaur=(171,395)
+    replayBtn=(340,390)   #these are coordinates of replay button, not the pixels and are relative to my screen size
+    dinosaur=(171,395)    #these are coordinates of dinosaur, not the pixels and are relative to my screen size
 
 def restartGame():
     pyautogui.click(Coordinates.replayBtn)
@@ -17,6 +17,7 @@ def pressSpace():
     time.sleep(0.05)
     print("Jump")
     pyautogui.keyUp('space')
+    
     
 #restartGame()
 #time.sleep(1)
